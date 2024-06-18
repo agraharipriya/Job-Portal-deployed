@@ -1,0 +1,17 @@
+.notification-page {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notification-page h2 {
+    margin-top: 0;
+  }
+  
+  .notification-page p {
+    margin-bottom: 0;
+  }
+  

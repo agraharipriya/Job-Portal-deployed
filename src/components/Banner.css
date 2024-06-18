@@ -1,0 +1,75 @@
+.login-banner{
+  
+    padding: 20px;
+    height: 50rem;
+    width: 100%;
+    position: relative;
+    background-image: url(../images/jobs.jpg) ;
+    background-size: cover;
+
+} 
+
+.heading{  
+    font-size: 40px;
+    /* letter-spacing: -2px; */
+    line-height: 45px;
+    color:#0F1941;
+}
+
+.language-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+.language-name-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.job-description {
+  margin-bottom: 15px;
+}
+
+.form-container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+   
+    .form-container {
+        max-width: 90%;
+    }
+    .banner1{
+      background-size: contain;
+      height: 400px;
+      
+  }
+  .banner{
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 390px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+    
+    .form-container {
+        max-width: 800px; 
+    }
+}
+
